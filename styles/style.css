@@ -76,15 +76,12 @@
   font-weight: 700;
   font-size: 100px;
   line-height: 130px;
-  letter-spacing: 0.3em;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
-.no-letter-spacing {
-  margin-right: -0.3em;
-}
 
 .accent-span {
   display: block;
@@ -257,7 +254,6 @@
 }
 
 /* ------------------------------------------------------ */
-
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -266,6 +262,8 @@
   margin-top: 120px;
   padding: 0 24px;
 }
+
+
 
 .about__logo {
   position: relative;
